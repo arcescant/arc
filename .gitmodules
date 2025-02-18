@@ -1,0 +1,3 @@
+[submodule "arc-kernel"]
+	path = arc-kernel
+	url = https://github.com/arcescant/arc-kernel.git
