@@ -1,6 +1,6 @@
 [submodule "arc-kernel"]
 	path = arc-kernel
 	url = https://github.com/arcescant/arc-kernel.git
-[submodule "arc-init"]
-	path = arc-init
-	url = https://github.com/arcescant/arc-init.git
+[submodule "arc-rootfs"]
+        path = arc-rootfs
+        url = https://github.com/arcescant/arc-rootfs.git
