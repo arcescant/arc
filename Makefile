@@ -1,3 +1,11 @@
-all:
-	make -C arc-kernel defconfig
-	make -C arc-kernel
+kernel:
+	make -C ./arc-kernel defconfig
+	make -C ./arc-kernel
+
+init:
+	make -C ./arc-init
+
+root:
+	
+
+all: kernel init root
